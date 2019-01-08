@@ -1,0 +1,49 @@
+mfd ()
+{
+move Down;
+move Down;
+move Down;
+move Down;
+return;
+}
+
+abc ()
+{
+Write;
+move Up;
+if (True)
+    {
+    move Right;
+    mfd ();
+    move Up;
+    move Right;
+    }
+  else 
+    {
+    move Left;
+    move Left;
+    Read;
+    }
+move Up;
+--hello
+Write;
+mfd ();
+return;
+}
+main ()
+{
+move Down;
+move Down;
+Read;
+abc ();
+move Right;
+Write;
+Write;
+move Up;
+move Up;
+move Up;
+move Up;
+mfd ();
+Read;
+mReturn;
+}
